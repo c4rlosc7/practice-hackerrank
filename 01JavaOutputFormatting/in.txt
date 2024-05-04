@@ -1,0 +1,14 @@
+java 100
+cpp 65
+python 50
+
+File myObject = new File("in.txt");
+Scanner myReader = new Scanner(myObject);
+while (myReader.hasNextLine()) {
+    String data = myReader.nextLine();
+    System.out.println(data);
+    // String heading1 = "Exam_Name";
+    // String heading2 = "Exam_Grade";
+    // System.out.printf( "%-15s %15s %n", heading1, heading2);
+}
+myReader.close();
